@@ -20,6 +20,10 @@ h2, h4 {
 	
 }
 
+h2 {
+	text-shadow: 2px 2px 8px #26000A;
+}
+
 h5 {
 	font-family: "Quasimoda Light", Quasimoda;
 	font-size: 15px;
