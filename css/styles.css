@@ -6,41 +6,77 @@
 /* Styles for the body */
 
 body {
-	font-family: Lato, "Open Sans", Roboto, "Segoe UI", "Helvetica Neue", Helvetica, Arial, sans-serif;
+	font-family: Cambria, "Hoefler Text", "Liberation Serif", Times, "Times New Roman", "serif";
 	color: #202030;
-	background-color: #f8f8fc;
 }
 
+h1 {
+	font-family: Mistic;
+	
+}
+h2, h4 {
+	font-family: "Mistic";
+	font-size:30px
+	
+}
+h5, li {
+	font-family: "Quasimoda Light", Quasimoda;
+	
+}
 /* Styles for custom classes in the document. (There are more, try to find them out!) */
 
 .resume-header {
-    background-color: #e0f0ff;
+    background-color: #26000A;
+	color: white
 }
 
 .resume-main {
-	background-color: #fffefc;
+	background-color: #FFFFFF;
 }
 
 .resume-aside {
-	background-color: #fff0e0;
+	background-color: #530724;
+	color: white;
+
+}
+
+.contact-icon {
+	filter: invert(100%);
+}
+
+a:link {
+	color:#ffffff;
+}
+
+a:visited {
+	color: #84203E;
+}
+
+a:hover {
+	color: #D695A5;
 }
 
 /* Styles for lists in the document */
 
 .biography-details li::before, .skill-list li::before {
-	content: ">";
+	content: "✧";
 	font-weight: 800;
 	display: inline-block;
-	width: 1em;
+	width: 1.5em;
 	margin-left: -1em;
+	color:black;
 }
 
 .biography-details li::before {
-	color: #EE7623;
+	color: #530724;
 }
 
 .biography-details li, .skill-list li {
 	padding-left: 1em;
+}
+
+.biography-logo-max {
+	margin-top: 80px;
 }
 
 /* Styles for contact icons */
@@ -48,4 +84,14 @@ body {
 .contact-icon {
 	height: 1em;
 	flex-basis: 1.4em;
+}
+
+.language-progress{
+	background-color:rosybrown !important;
+	
+}
+
+.border-2{
+	border: none !important;
+	
 }
